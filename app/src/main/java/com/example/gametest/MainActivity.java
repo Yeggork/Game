@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
             // создаем нового персонажа и историю
-            human = new Character("Вася");
+            human = new Character("Александр");
             story = new Story();
             // в первый раз выводим на форму весь необходимый текст и элементы
             // управления
